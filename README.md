@@ -24,3 +24,7 @@ git clone https://github.com/prajwalpatil2204/project-dl-main.git
 
 step 4 : install all dependencies 
 pip install -r requirements.txt
+
+Step 5. Deployment
+docker, aws, CI/CD pipeline
+
