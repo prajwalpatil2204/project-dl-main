@@ -21,12 +21,12 @@ class EvaluationPipeline:
         evaluation.evaluation()
         evaluation.save_score()
         
-        mlflow.set_tracking_uri("https://dagshub.com/prajwalpatil2204/project-dl-main.mlflow")
+        # mlflow.set_tracking_uri("https://dagshub.com/prajwalpatil2204/project-dl-main.mlflow")
 
-        os.environ["MLFLOW_TRACKING_USERNAME"]="prajwalpatil2204"
-        os.environ["MLFLOW_TRACKING_PASSWORD"]="93c20ae46965bedc7ee24237d553b393d8dc7523"
+        # os.environ["MLFLOW_TRACKING_USERNAME"]="prajwalpatil2204"
+        # os.environ["MLFLOW_TRACKING_PASSWORD"]="93c20ae46965bedc7ee24237d553b393d8dc7523"
 
-        evaluation.log_into_mlflow()
+        # evaluation.log_into_mlflow()
 
 if __name__ == '__main__':
     try:
