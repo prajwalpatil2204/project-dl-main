@@ -1,3 +1,6 @@
+import os
+import sys
+sys.path.append(os.getcwd())
 from src.cnnClassifier.config.configuration import ConfigurationManager
 from src.cnnClassifier.components.model_training import Training
 from src.cnnClassifier import logger

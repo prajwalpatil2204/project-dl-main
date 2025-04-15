@@ -1,3 +1,6 @@
+import os
+import sys
+sys.path.append(os.getcwd())
 from src.cnnClassifier import logger
 from src.cnnClassifier.utils.common import get_size
 from src.cnnClassifier.entity.config import DataIngestionConfig
